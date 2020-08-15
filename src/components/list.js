@@ -2,7 +2,15 @@ import React from "react"
 
 
 function List(){
-    return()
+    return(
+        <div>
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </div>
+    )
 }
 
 export default List
