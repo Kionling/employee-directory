@@ -1,12 +1,16 @@
 import React from "react"
 
 
-function List(){
+function List(props){
     return(
         <div>
             <tbody>
                 <tr>
-                    <td></td>
+                    <td>{props.id}</td>
+                    <td>{props.name}</td>
+                    <td>{props.phone}</td>
+                    <td>{props.department}</td>
+
                 </tr>
             </tbody>
         </div>

@@ -1,11 +1,12 @@
 import React from "react"
+import employees from "../employees.json"
+import List from "../components/list"
 
-function ListOrder(){
-    return(
-    <div>
+class App extends React.Component {
 
-    </div>
-    )
+
+
+
+
+    
 }
-
-export default ListOrder
