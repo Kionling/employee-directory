@@ -27,8 +27,15 @@ const [state, dispatch] = useReducer ((state, action) => {
 })
 
 sortAscend = (employees, info) =>{
-    employees.sort(() => {
-        
+    employees.sort((employee1, employee2) => {
+        if (employee1 > employee2){
+            return -1
+        }if (employee1 < employee2){
+            return 1
+        }
+        else{
+            return 0 
+        }
     })
 }
 
