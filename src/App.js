@@ -9,10 +9,7 @@ import Search from "./components/search"
 function App() {
   return (
     <div className="">
-      <Navbar />
-      <Jumbotron />
-      <Search />
-      <Footer />
+     <EmployeeProvider />
     </div>
   );
 }

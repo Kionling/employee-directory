@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Daniel Jauregui",
+        "Phone": "(209)665-8323",
+        "Department":"Engineering"
     },
     {
         "id": 2,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Micaela Estavillo",
+        "Phone": "(408)467-2131",
+        "Department":"Manager"
     },
     {
         "id": 3,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Dad Jauregui",
+        "Phone": "(209)665-8321",
+        "Department":"Engineer"
     },
     {
         "id": 4,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Mom Velazquez",
+        "Phone": "(209)665-8339",
+        "Department":"Engineer"
     },
     {
         "id": 5,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Luis Jauregui",
+        "Phone": "(209)665-8324",
+        "Department":"Cloud"
     },
     {
         "id": 6,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Melvin Pineda",
+        "Phone": "(510)394-2342",
+        "Department":"Design"
     },
     {
         "id": 7,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Gabriel Pineda",
+        "Phone": "(510)341-9329",
+        "Department":"Bum"
     },
     {
         "id": 8,
-        "Name": "",
-        "Phone": "",
-        "Department":""
+        "Name": "Andres Jauregui",
+        "Phone": "(209)665-3500",
+        "Department":"Bum"
     }
 ]

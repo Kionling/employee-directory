@@ -12,7 +12,6 @@ function Search() {
             <input type="text" placeholder="Search for an employee"></input>
           </form>
         </div>
-        
       </div>
     </div>
   );
