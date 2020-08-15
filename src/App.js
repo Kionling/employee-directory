@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Jumbotron from "./components/jumbotron";
 import Search from "./components/search";
+import EmployeeSort from "./components/togglelistorder"
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <Jumbotron />
    
-        <EmployeeList />
+        <EmployeeSort />
 
       <Footer />
     </div>

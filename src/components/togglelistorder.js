@@ -16,17 +16,42 @@ const [state, dispatch] = useReducer ((state, action) => {
         return [...employees]
     }
     if (action.type === "descending"){
-        return sortDescend();
+        return sortDescend(state.action.input);
     }
     if (action.type === "ascending"){
-        return sortAscend()
+        return sortAscend(state.action.input)
     }
     else{
         return state
     }
 })
 
+tableSort = (employee, input) =>{
+    setSort({...sort, [employee]:!setSort[employee]})
+    if(input === "ascending"){
+        dispatch({type: "sortAscend", input: employee})
+    }
+    if(input === "descending"){
+        dispatch({type: "sortDescend", input: employee})
+    }
+}
+
+
 sortAscend = (employees, info) =>{
+    employees.sort((employee1, employee2) => {
+        if (employee1 < employee2){
+            return 1
+        }if (employee1 > employee2){
+            return -1
+        }
+        else{
+            return 0 
+        }
+    })
+}
+
+
+sortDescend = (employees, info) =>{
     employees.sort((employee1, employee2) => {
         if (employee1 > employee2){
             return -1
@@ -41,9 +66,13 @@ sortAscend = (employees, info) =>{
 
 
 
+useEffect(() =>{
+    dispatch({ type: "renderEmployees"})
+})
 
-
-
+return(
+    <List />
+)
 
 
 }
